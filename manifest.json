@@ -1,0 +1,17 @@
+{
+    "name": "noti"
+    , "description": "crawls web pages and displays desktop notifications according to user specified rules"
+    , "version": "1.0"
+    /*, "background_page": "background.html"
+    , "options_page": "options.html"*/
+    , "browser_action": {
+        "default_title": "noti"
+        , "default_icon": "icon-128.png"
+    }
+    , "permissions": [
+        "tabs"
+        , "http://*/"
+        , "https://*/"
+        , "notifications"
+    ]
+}
